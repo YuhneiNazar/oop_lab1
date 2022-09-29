@@ -16,7 +16,7 @@ int main() {
 
     Line p;
     p.SetFirst(9.5);
-    p.SetSecond(3);
+    p.SetSecond(3.10);
     p.Read();
     p.root();
     p.Display();

@@ -24,6 +24,7 @@ bool Line::Init(double f, double s)
 }
 
 void Line::Read() {
+    cout << "Input value:" << endl;
     cout << "A=";
     cin >> first;
     cout << "B=";
@@ -41,5 +42,6 @@ double Line::root() {
     }
 }
 void Line::Display() {
+
     cout << "y=" << root();
 }
